@@ -15597,8 +15597,36 @@ div.jp-OutputPrompt {
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># A program to greet the user by name</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi. What is your name?&#39;</span><span class="p">)</span> <span class="c1"># Ask the user for their name</span>
-<span class="n">user_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span> <span class="c1"># Take the user&#39;s input and put it into the variable user_name</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Pleased to meet you, </span><span class="si">{</span><span class="n">user_name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> <span class="c1"># Print a greeting with the user&#39;s name</span>
+<span class="n">user_name</span> <span class="o">=</span> <span class="n">mr</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;What is your name?&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;Who knows?&quot;</span><span class="p">)</span>
+<span class="c1">#user_name = input() # Take the user&#39;s input and put it into the variable user_name</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's print it out!</p>
+
+</div>
+</div>
+</div>
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Pleased to meet you, </span><span class="si">{</span><span class="n">user_name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> <span class="c1"># Print a greeting with the user&#39;s name</span>
 </pre></div>
 
      </div>
@@ -15627,24 +15655,7 @@ div.jp-OutputPrompt {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Concatenating many strings within a print function</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, &#39;</span> <span class="o">+</span> <span class="s1">&#39;all &#39;</span> <span class="o">+</span> <span class="s1">&#39;these &#39;</span> <span class="o">+</span> <span class="s1">&#39;strings &#39;</span> <span class="o">+</span> <span class="s1">&#39;are &#39;</span> <span class="o">+</span> <span class="s1">&#39;being &#39;</span> <span class="o">+</span> <span class="s1">&#39;connected &#39;</span> <span class="o">+</span> <span class="s1">&#39;together.&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Trying to concatenate a string with an integer causes an error</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are &#39;</span> <span class="o">+</span> <span class="mi">7</span> <span class="o">+</span> <span class="s1">&#39;continents.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pleased to meet you, &#39;</span> <span class="o">+</span> <span class="n">user_name</span><span class="p">)</span>
 </pre></div>
 
      </div>
